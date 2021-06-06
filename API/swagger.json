@@ -257,7 +257,7 @@
           "format": "int64"
         }
       ],
-      "responeses": {
+      "responses": {
         "200": {
           "description": "Success"
         },
