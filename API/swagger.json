@@ -230,39 +230,39 @@
           }
         }
       }
-    }
-  },
-  "/api/players/exp/{id}": {
-    "post": {
-      "tags": [
-        "players"
-      ],
-      "summary": "Add player experience by certain amount",
-      "description": "",
-      "operationId": "AddPlayers",
-      "consumes": [
-        "application/x-www-form-urlencoded"
-      ],
-      "produces": [
-        "application/xml",
-        "application/json"
-      ],
-      "parameters": [
-        {
-          "name": "id",
-          "in": "path",
-          "description": "ID of pet that needs to be updated",
-          "required": true,
-          "type": "integer",
-          "format": "int64"
-        }
-      ],
-      "responses": {
-        "200": {
-          "description": "Success"
-        },
-        "400": {
-          "description": "Failed"
+    },
+    "/api/players/exp/{id}": {
+      "post": {
+        "tags": [
+          "players"
+        ],
+        "summary": "Add player experience by certain amount",
+        "description": "",
+        "operationId": "AddPlayers",
+        "consumes": [
+          "application/x-www-form-urlencoded"
+        ],
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of pet that needs to be updated",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Failed"
+          }
         }
       }
     }
